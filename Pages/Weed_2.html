@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A dzsó!</title>
+	<meta charset="UTF-8">
+	<link rel="icon" href="../Resources/Favicon.png">
+</head>
+
+<style>
+
+	body {
+		background-image: url("/Resources/Ambient");
+		background-repeat: no-repeat;
+		background-position: right-top;
+		background-attachment: fixed;
+	}
+
+	.weed {
+		text-align: center;
+		margin: 13em 0;
+	}
+	
+	input.index_button {
+		position: absolute;
+		top: 580px;
+		right: 650px;
+		display: inline-block;
+		padding: 15px 25px;
+		font-size: 24px;
+		cursor: pointer;
+		text-align: center;
+		text-decoration: none;
+		outline: none;
+		color: #fff;
+		background-color: #004D40;
+		border: none;
+		border-radius: 15px;
+		box-shadow: 0 9px #424242;
+	}
+	
+	input.index_button:hover {
+		background-color: #616161;
+	}
+	
+	input.index_button:active {
+		background-color: #616161;
+		box-shadow: 0 5px black;
+		transform: translateY(4px);
+	}
+	
+</style>
+
+
+<body style="background-color: #212121;">
+
+	<div class="weed">
+		<img src="../Resources/Weed.gif" alt="Homer OG Simpson">
+	</div>
+	
+	<div class="index_button">
+		<form>
+			<input class="index_button" type="button" value="Vissza"
+			onclick="window.location.href='../Pages/Origin.html'"/>
+		</form>	
+	</div>
+		
+</body>
+</html>
